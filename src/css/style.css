@@ -6,14 +6,13 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #5e5b5bad;
-    max-width: 1280px;
+    background:radial-gradient(circle at 0% 0%, rgba(255, 238, 90, 1) 0%, rgba(255, 255, 185, 1) 50%, rgba(255, 238, 90, 1) 100%);    max-width: 1280px;
     margin: 0 auto;
-    color: #333333;
+    color: black;
 }
 
 body.modo__escuro {
-    background-color: #212121;
+    background:radial-gradient(circle at 0% 0%, rgba(0, 0, 0, 1) 0%, rgba(81, 122, 133, 1) 52%, rgba(0, 0, 0, 1) 100%);
     color: #f5f5f5;
 }
 
@@ -56,7 +55,7 @@ ul {
 }
 
 .cartao__monstros {
-    background-color: #d8e3ec;
+    background:radial-gradient(circle at 100% 100%, rgba(133, 133, 133, 1) 0%, rgba(33, 33, 33, 1) 100%);
     width: 200px;
     padding: 15px;
     display: flex;
@@ -77,7 +76,7 @@ ul {
 }
 
 .monstros {
-    width: 130px;
+    width: 150px;
 }
 
 .informacoes {
@@ -106,24 +105,24 @@ ul {
 }
 
 .sangue {
-    background-color: red;
+    background:radial-gradient(circle at 0% 0%, rgba(66, 2, 2, 1) 0%, rgba(227, 31, 31, 1) 100%);
     color: #212121;
 }
 
 .medo {
-    background-color: gray;
+    background:radial-gradient(circle at 50% 50%, rgba(137, 137, 133, 1) 0%, rgba(53, 52, 52, 1) 50%, rgba(137, 137, 133, 1) 100%);
 }
 
 .conhecimento {
-    background-color: goldenrod;
+    background:radial-gradient(circle at 53% 41%, rgba(255, 255, 0, 1) 0%, rgba(150, 135, 10, 1) 100%);
 }
 
 .energia {
-    background-color: purple;
+    background:radial-gradient(circle at 31% 47%, rgba(217, 59, 217, 1) 0%, rgba(99, 12, 140, 1) 100%);
 }
 
 .morte {
-    background-color: black;
+    background:radial-gradient(circle at 0% 0%, rgba(0, 0, 0, 1) 15%, rgba(93, 92, 92, 1) 54%, rgba(0, 0, 0, 1) 79%);
     color: #d8e3ec;
 }
 
